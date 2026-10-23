@@ -1,0 +1,159 @@
+/* style.css - ملف التنسيق الموحد لكافة الصفحات */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #141414;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    background-image: url('car-bg.jpg'); }
+    
+   
+
+header {
+    background-color: #52431c;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #a36a31;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.container {
+    width: 85%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* تنسيق تذييل الصفحة والأيقونات بدلاً من النص القديم */
+footer {
+    background-color: #bea140;
+    padding: 18px 10px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 4px solid #be9b27;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+/* تنسيق الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #926614;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.details-row {
+    display: none;
+    background-color: #eef2f7;
+    text-align: right;
+    padding: 10px;
+}
+
+/* تنسيق النماذج Fieldset & Input */
+fieldset {
+    border: 1px solid #4e4512;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #b88425;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+    color: #0f0d04;
+}
+
+input[type="text"], input[type="date"], input[type="email"] {
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+input[type="submit"], input[type="button"], button {
+    background-color: #a58523;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+    background-color: #3a301f;
+}
